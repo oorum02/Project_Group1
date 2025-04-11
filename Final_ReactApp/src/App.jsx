@@ -30,6 +30,7 @@ const teamMembers = [
   {
     name: " 🎟️ Gabriella",
     films: "I love Spirited Away, The Blair Witch Project and Texas Chainsaw Massacre! One is very much not like the others 👻 ",
+<<<<<<< HEAD
     avatar: "",
   },
   {
@@ -40,8 +41,10 @@ const teamMembers = [
   {
     name: "📼 Alissa",
     films: "Clueless for a feel good film, Annihilation or Dune for high quality sci-fi, and most Werner Herzog documentaries for a deadpan perspective.",
+=======
+>>>>>>> 7c34df7 (Added Gabriella's name and films to the carousel in the app.jsx file)
     avatar: "",
-  },
+  }
 ];
 function App() {
   const [count, setCount] = useState(0);
