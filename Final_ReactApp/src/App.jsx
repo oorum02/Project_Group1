@@ -33,12 +33,11 @@ const teamMembers = [
     avatar: "",
   },
   {
-  name: " 📽️ Rima",
-  films: "My favourite go to movie is Harry Potter and the Philosopher's Stone, also love the Fast and Furious franchise! I know, I know, but I love the action and the cars! 🚗💨",
-  avatar: "",
+    name: " 📽️ Rima",
+    films: "My favourite go to movie is Harry Potter and the Philosopher's Stone, also love the Fast and Furious franchise! I know, I know, but I love the action and the cars! 🚗💨",
+    avatar: "",
 },
 ];
-
 function App() {
   const [count, setCount] = useState(0);
   const [currentMember, setCurrentMember] = useState(0);
