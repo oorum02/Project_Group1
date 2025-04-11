@@ -27,6 +27,11 @@ const teamMembers = [
     films: "I genuinely can't pick just one — so here are three heavy hitters that I absolutely love 🥰: The Book of Life, Mulan I & II, and Turning Red.",
     avatar: "",
   },
+  {
+    name: "📼 Alissa",
+    films: "Clueless for a feel good film, Annihilation or Dune for high quality sci-fi, and most Werner Herzog documentaries for a deadpan perspective.",
+    avatar: "",
+  },
 ];
 
 function App() {
