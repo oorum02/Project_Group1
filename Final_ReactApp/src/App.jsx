@@ -33,11 +33,6 @@ const teamMembers = [
     avatar: "",
   }
   {
-    name: " 🎟️ Gabriella",
-    films: "I love Spirited Away, The Blair Witch Project and Texas Chainsaw Massacre! One is very much not like the others 👻 ",
-    avatar: "",
-  },
-  {
     name: " 📽️ Rima",
     films: "My favourite go to movie is Harry Potter and the Philosopher's Stone, also love the Fast and Furious franchise! I know, I know, but I love the action and the cars! 🚗💨",
     avatar: "",
