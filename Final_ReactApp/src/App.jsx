@@ -44,8 +44,8 @@ const teamMembers = [
     avatar: "",
 },
   {
-    name: " 🎟️ Gabriella",
-    films: "I love Spirited Away, The Blair Witch Project and Texas Chainsaw Massacre! One is very much not like the others 👻 ",
+    name: "📼 Alissa",
+    films: "Clueless for a feel good film, Annihilation or Dune for high quality sci-fi, and most Werner Herzog documentaries for a deadpan perspective.",
     avatar: "",
   }
 ];
