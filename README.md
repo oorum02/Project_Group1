@@ -32,4 +32,8 @@ Text here!
 
 ### Rima
 
-Text here!
+What is your favorite hobby? 
+Reading
+
+Why do you do it? 
+Takes you to another world.
