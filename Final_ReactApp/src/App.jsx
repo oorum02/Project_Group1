@@ -38,13 +38,6 @@ const teamMembers = [
     films: "My favourite go to movie is Harry Potter and the Philosopher's Stone, also love the Fast and Furious franchise! I know, I know, but I love the action and the cars! 🚗💨",
     avatar: "",
 },
-  {
-    name: "📼 Alissa",
-    films: "Clueless for a feel good film, Annihilation or Dune for high quality sci-fi, and most Werner Herzog documentaries for a deadpan perspective.",
-=======
->>>>>>> 7c34df7 (Added Gabriella's name and films to the carousel in the app.jsx file)
-    avatar: "",
-  }
 ];
 function App() {
   const [count, setCount] = useState(0);
