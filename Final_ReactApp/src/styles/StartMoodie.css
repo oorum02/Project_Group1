@@ -1,36 +1,52 @@
 body {
   background: linear-gradient(var(--dark-purple-black), var(--deep-plum));
-  width: 100vw;
-  height: 100vh;
 }
 
 h1 {
-  color: #eacdc2;
+  color: var(--soft-beige);
+  font-size: 4rem;
 }
 .box {
+  background-color: var(--muted-mauve);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid #eacdc2;
+  border: 2px solid var(--soft-beige);
   border-radius: 10px;
-  padding: 2em 2em 24em;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 2%;
+  padding: 4em;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-inline: 20%;
 }
 
-.path-button {
+.buttons-div {
+  display: flex;
+  gap: 2em;
+  padding: 3em;
+  justify-content: center;
+}
+
+.quiz-button,
+.randomise-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b75d69;
-  border: 2px solid #eacdc2;
+  background-color: var(--vintage-rose);
+  border: 2px solid var(--soft-beige);
   border-radius: 10px;
-  padding: 1em;
+  padding: 2em;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 1em 0;
+  width: 250px;
+  height: 120px;
+  text-align: center;
 }
 
-.path-button:hover {
-  background-color: #774C60;
-  color: #1a1423;
+.quiz-button:hover,
+.randomise-button:hover {
+  background-color: var(--deep-plum);
+  color:  var(--soft-beige);
   cursor: pointer;
 }

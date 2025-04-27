@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import moodieLogo from "../../assets/logos/moodie_logo.png";
@@ -19,13 +18,13 @@ const HomeNavbar = () => {
             <nav>
                <ul>
                   <li>
-                     <Link to="/">Home</Link>
+                     <a href="#heroes" className="nav-link">Home</a>
                   </li>
                   <li>
-                     <Link to="/about">About</Link>
+                     <a href="#about" className="nav-link">About</a>
                   </li>
                   <li>
-                     <Link to="/thecreators">The Creators</Link>
+                     <a href="#creators" className="nav-link">The Creators</a>
                   </li>
                   <button id="start-moodie-btn" onClick={startMoodie}>
                      Start Moodie

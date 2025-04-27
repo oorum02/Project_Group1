@@ -11,15 +11,18 @@ function ChoosePath() {
   return (
     <>
       <div className="box">
-        <button onClick={() => handleClick("/Quiz")} className="path-button">
-          Quiz
-        </button>
-        <button
-          onClick={() => handleClick("/Randomise")}
-          className="path-button"
-        >
-          Randomise
-        </button>
+        <h1>Choose Path</h1>
+        <div className="buttons-div">
+          <button onClick={() => handleClick("/Quiz")} className="quiz-button">
+            Quiz
+          </button>
+          <button
+            onClick={() => handleClick("/Randomise")}
+            className="randomise-button"
+          >
+            Randomise
+          </button>
+        </div>
       </div>
     </>
   );

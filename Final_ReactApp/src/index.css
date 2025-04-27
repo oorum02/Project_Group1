@@ -10,3 +10,8 @@ body {
   margin-top: 95px;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+

@@ -161,7 +161,7 @@
    z-index: 1;
 
    &:hover {
-      background: #b6515e;
+      background-color: var(--vintage-rose);
       animation: tilt-shaking 0.7s infinite;
    }
 }
