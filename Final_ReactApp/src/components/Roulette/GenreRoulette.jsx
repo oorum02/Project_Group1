@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Spinny from 'Spinny' ; // Imports the main wheel component
+import Spinny from './Spinny'; // Imports the main wheel component
 
 const API_KEY = '577bc4c58ad0efe50eccb22d412606be'; // <-- API key for Gaby's account
 
