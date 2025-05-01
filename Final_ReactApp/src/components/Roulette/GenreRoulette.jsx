@@ -1,94 +1,141 @@
 import React, { useEffect, useState } from 'react';
-import Spinny from './Spinny' ; // Imports the main wheel component
+import { useNavigate } from 'react-router-dom';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
+import popcornLogo from '../../assets/logos/moodie-popcorn.png';
 
-const API_KEY = '577bc4c58ad0efe50eccb22d412606be'; // <-- API key for Gaby's account
+const API_KEY = '577bc4c58ad0efe50eccb22d412606be';
 
-function GenreSpinny() {
-  //Creates variables which will hold the data for the genres, selected genre, movies, and selected movie.
-    const [genres, setGenres] = useState([]);
-    const [selectedGenre, setSelectedGenre] = useState(null); // genre ID
-    const [movies, setMovies] = useState([]);
-    const [selectedMovie, setSelectedMovie] = useState(null);
-  
-    // Fetch genres when app loads
-    useEffect(() => {
-      fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}&language=en-US`)
-        .then(res => res.json())
-        .then(data => setGenres(data.genres))
-        .catch(err => console.error('Failed to fetch genres', err));
-    }, []);
-  
-    // Fetch movies for selected genre
-    useEffect(() => {
-      if (!selectedGenre) return;
-      fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=${selectedGenre}`)
-        .then(res => res.json())
-        .then(data => {
-          setMovies(data.results);
-          setSelectedMovie(null); // Reset winner
-        })
-        .catch(err => console.error('Failed to fetch movies', err));
-    }, [selectedGenre]);
-  
-    // Called after wheel stops spinning
-    const handleFinished = (title) => {
-      const movie = movies.find((m) => m.title === title);
-      setSelectedMovie(movie);
-    };
-  
-    return (
-      <div style={{ textAlign: 'center', padding: 20 }}>
-        <h1>🎬 Choose a Genre...</h1>
-  
-        {/* Genre buttons */}
-        <div style={{ marginBottom: 30, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px' }}>
+const genreIcons = {
+  Action: '🔥',
+  Adventure: '🧭',
+  Animation: '🎨',
+  Comedy: '😂',
+  Crime: '🕵️‍♂️',
+  Documentary: '📚',
+  Drama: '🎭',
+  Family: '👨‍👩‍👧',
+  Fantasy: '🧙‍♂️',
+  History: '📜',
+  Horror: '👻',
+  Music: '🎵',
+  Mystery: '🕵️',
+  Romance: '❤️',
+  'Science Fiction': '🚀',
+  'TV Movie': '📺',
+  Thriller: '🔪',
+  War: '⚔️',
+  Western: '🤠',
+};
+
+function GenreRoulette() {
+  const [genres, setGenres] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}&language=en-US`)
+      .then((res) => res.json())
+      .then((data) => setGenres(data.genres))
+      .catch((err) => console.error('Failed to fetch genres', err));
+  }, []);
+
+  const handleGenreClick = (id) => {
+    navigate(`/roulette/${id}`);
+  };
+
+  return (
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        background: 'linear-gradient(to bottom right, var(--muted-mauve), var(--vintage-rose))',
+        color: 'var(--soft-beige)',
+        position: 'relative',
+      }}
+    >
+      <Navbar />
+
+      {/* Popcorn logo top-left */}
+      <img
+        src={popcornLogo}
+        alt="Moodie Popcorn Logo"
+        style={{
+          position: 'absolute',
+          top: '1rem',
+          left: '1rem',
+          width: '50px',
+          height: '50px',
+          objectFit: 'contain',
+          zIndex: 10,
+        }}
+      />
+
+      <main
+        style={{
+          flexGrow: 1,
+          padding: '3rem 1rem',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          textAlign: 'center',
+        }}
+      >
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '2rem' }}>
+          Choose a genre
+        </h1>
+
+        {/* Genre container - strictly 5 columns */}
+        <div
+          style={{
+            backgroundColor: 'var(--deep-plum)',
+            borderRadius: '1rem',
+            border: '1px solid var(--soft-beige)',
+            padding: '2.5rem',
+            width: '100%',
+            maxWidth: '1100px',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(5, 1fr)',
+            gap: '2rem',
+            justifyItems: 'center',
+          }}
+        >
           {genres.map((genre) => (
-            <button
-              key={genre.id}
-              onClick={() => setSelectedGenre(genre.id)}
-              style={{
-                padding: '10px 15px',
-                borderRadius: '20px',
-                border: '1px solid #999',
-                backgroundColor: selectedGenre === genre.id ? '#372549' : '#eacdc2',
-                color: selectedGenre === genre.id ? '#fff' : '#333',
-                cursor: 'pointer',
-                fontWeight: 'bold',
-              }}
-            >
-              {genre.name}
-            </button>
+            <div key={genre.id} style={{ textAlign: 'center' }}>
+              <button
+                onClick={() => handleGenreClick(genre.id)}
+                style={{
+                  backgroundColor: 'var(--soft-beige)',
+                  color: 'var(--deep-plum)',
+                  width: '80px',
+                  height: '80px',
+                  borderRadius: '50%',
+                  border: 'none',
+                  fontSize: '1.8rem',
+                  fontWeight: 'bold',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  margin: '0 auto 0.5rem',
+                  transition: 'transform 0.2s ease',
+                }}
+                onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.1)')}
+                onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+              >
+                {genreIcons[genre.name] || '🎬'}
+              </button>
+              <div style={{ fontWeight: 'bold', fontSize: '1rem' }}>
+                {genre.name === 'Science Fiction' ? 'Sci-Fi' : genre.name}
+              </div>
+            </div>
           ))}
         </div>
-  
-        {/* Wheel appears only after genre is selected */}
-        {movies.length > 0 ? (
-          <Spinny
-            segments={movies.map((movie) => movie.title)}
-            onFinished={handleFinished}
-            primaryColor="#372549"
-            contrastColor="#eacdc2"
-            buttonText="SPIN"
-            size={400}
-          />
-        ) : (
-          selectedGenre && <p>Loading movies...</p>
-        )}
-  
-        {/* Winner display */}
-        {selectedMovie && (
-          <div style={{ marginTop: 40 }}>
-            <h2>{selectedMovie.title}</h2>
-            <img
-              src={`https://image.tmdb.org/t/p/w300${selectedMovie.poster_path}`}
-              alt={selectedMovie.title}
-              style={{ borderRadius: '10px' }}
-            />
-            <p style={{ maxWidth: 600, margin: '20px auto' }}>{selectedMovie.overview}</p>
-          </div>
-        )}
-      </div>
-    );
-  }
-  
-  export default GenreSpinny;
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default GenreRoulette;
