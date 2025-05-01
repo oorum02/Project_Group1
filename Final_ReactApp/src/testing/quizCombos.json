@@ -6,22 +6,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -31,22 +41,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -56,22 +76,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -81,22 +111,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -106,22 +146,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -131,22 +181,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -156,22 +216,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -181,22 +251,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -206,22 +286,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -231,22 +321,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -256,22 +356,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -281,22 +391,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -306,22 +426,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -331,22 +461,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -356,22 +496,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -381,22 +531,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -406,22 +566,32 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -431,22 +601,662 @@
         "value": 14
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 14,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Fantasy",
+        "value": 14
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 14,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -456,22 +1266,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -481,22 +1301,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -506,22 +1336,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -531,22 +1371,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -556,22 +1406,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -581,22 +1441,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -606,22 +1476,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -631,22 +1511,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -656,22 +1546,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -681,22 +1581,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -706,22 +1616,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -731,22 +1651,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -756,22 +1686,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -781,22 +1721,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -806,22 +1756,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -831,22 +1791,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -856,22 +1826,32 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -881,22 +1861,662 @@
         "value": 35
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 35,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Comedy",
+        "value": 35
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 35,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -906,22 +2526,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -931,22 +2561,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -956,22 +2596,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -981,22 +2631,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1006,22 +2666,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1031,22 +2701,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1056,22 +2736,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1081,22 +2771,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1106,22 +2806,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1131,22 +2841,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1156,22 +2876,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1181,22 +2911,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1206,22 +2946,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1231,22 +2981,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1256,22 +3016,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1281,22 +3051,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1306,22 +3086,32 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1331,22 +3121,662 @@
         "value": 27
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 27,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Horror",
+        "value": 27
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 27,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1356,22 +3786,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1381,22 +3821,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1406,22 +3856,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1431,22 +3891,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1456,22 +3926,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1481,22 +3961,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1506,22 +3996,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1531,22 +4031,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1556,22 +4066,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1581,22 +4101,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1606,22 +4136,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1631,22 +4171,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1656,22 +4206,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1681,22 +4241,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1706,22 +4276,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1731,22 +4311,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1756,22 +4346,32 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1781,22 +4381,662 @@
         "value": 10749
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 10749,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Romantic",
+        "value": 10749
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 10749,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1806,22 +5046,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1831,22 +5081,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1856,22 +5116,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1881,22 +5151,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1906,22 +5186,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1931,22 +5221,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Fantasy",
-        "value": 14
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -1956,22 +5256,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -1981,22 +5291,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -2006,22 +5326,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -2031,22 +5361,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -2056,22 +5396,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -2081,22 +5431,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Comedy",
-        "value": 35
+        "label": "1950s-1980s",
+        "value": {
+          "start": "1950-01-01",
+          "end": "1979-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Great",
+        "value": 8.5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1950-01-01",
+      "primary_release_date.lte": "1979-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -2106,22 +5466,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -2131,22 +5501,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Fantasy",
-        "value": 14
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 14,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -2156,22 +5536,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -2181,22 +5571,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Comedy",
-        "value": 35
+      "rating": {
+        "label": "Okay",
+        "value": 5
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 35,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   },
   {
@@ -2206,22 +5606,32 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Fantasy",
-        "value": 14
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 14
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
     }
   },
   {
@@ -2231,22 +5641,662 @@
         "value": 53
       },
       "filmReleaseDate": {
-        "label": "Horror",
-        "value": 27
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
       },
-      "ratingsRange": {
-        "label": "Horror",
-        "value": 27
+      "rating": {
+        "label": "Good",
+        "value": 7
       },
-      "runTime": {
-        "label": "Comedy",
-        "value": 35
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
       }
     },
     "apiRequest": {
       "with_genres": 53,
-      "vote_average.gte": 27,
-      "with_runtime.gte": 35
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "1980s-2000",
+        "value": {
+          "start": "1980-01-01",
+          "end": "1999-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "1980-01-01",
+      "primary_release_date.lte": "1999-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Okay",
+        "value": 5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Good",
+        "value": 7
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 7,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "Short and sweet",
+        "value": 120
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 120,
+      "with_runtime.gte": 135
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I'm always running out of time",
+        "value": 90
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 90
+    }
+  },
+  {
+    "answers": {
+      "genre": {
+        "label": "Thriller",
+        "value": 53
+      },
+      "filmReleaseDate": {
+        "label": "2000-2025",
+        "value": {
+          "start": "2000-01-01",
+          "end": "2024-12-31"
+        }
+      },
+      "rating": {
+        "label": "Great",
+        "value": 8.5
+      },
+      "runTimeLte": {
+        "label": "I'm in for the long haul",
+        "value": 210
+      },
+      "runTimeGte": {
+        "label": "I have all the time in the world",
+        "value": 135
+      }
+    },
+    "apiRequest": {
+      "with_genres": 53,
+      "primary_release_date.gte": "2000-01-01",
+      "primary_release_date.lte": "2024-12-31",
+      "vote_average.gte": 8.5,
+      "with_runtime.lte": 210,
+      "with_runtime.gte": 135
     }
   }
 ]
