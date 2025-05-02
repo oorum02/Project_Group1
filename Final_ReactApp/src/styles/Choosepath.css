@@ -1,0 +1,84 @@
+.choosepath-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .choosepath-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(to bottom right, var(--muted-mauve), var(--vintage-rose));
+    padding: 1rem 1rem;
+    min-height: calc(100vh - 80px);
+    box-sizing: border-box;
+  }
+  
+  .choosepath-card {
+    background-color: var(--deep-plum);
+    border: 1.5px solid var(--soft-beige);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 500px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+  }
+  
+  .choosepath-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--soft-beige);
+    margin-bottom: 1rem;
+  }
+  
+  .choosepath-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .choosepath-btn {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid var(--soft-beige);
+    background-color: #b75d69;
+    color: var(--soft-beige);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    min-width: 280px;
+  }
+  
+  .choosepath-btn:hover {
+    background-color: #774c60;
+  }
+  
+  .choosepath-description {
+    font-size: 1rem;
+    color: var(--soft-beige);
+    margin-top: 2rem;
+  }
+  
+  .choosepath-popcorn {
+    position: absolute;
+    bottom: 6rem;
+    left: 0;
+    width: 33vw;
+    max-width: 320px;
+    opacity: 0.25;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+  }
