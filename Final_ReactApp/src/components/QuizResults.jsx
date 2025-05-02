@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "../styles/QuizResults.css";
 import StartAgainNavbar from "../components/navbar/StartAgainNavbar";
 import Footer from "../components/Footer";
@@ -10,26 +11,45 @@ const QuizResults = ({ quizAnswers }) => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const location = useLocation();
+  const movieIdParam = new URLSearchParams(location.search).get("movieId");
 
   useEffect(() => {
-    const genreInput = [quizAnswers.eveningGenre, quizAnswers.endingGenre].join("|");
-
-    const params = new URLSearchParams({
-      api_key: API_KEY,
-      with_genres: genreInput,
-      "primary_release_date.gte": quizAnswers.filmReleaseDate.start,
-      "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
-      "with_runtime.gte": quizAnswers.runTime,
-      "with_runtime.lte": quizAnswers.runTime + 60,
-      "with_vote_count.gte": quizAnswers.voteCount,
-      include_adult: false,
-    });
-
-    const url = `https://api.themoviedb.org/3/discover/movie?${params.toString()}`;
-
     const fetchMovies = async () => {
       try {
         setLoading(true);
+
+        if (movieIdParam) {
+          const res = await fetch(
+            `https://api.themoviedb.org/3/movie/${movieIdParam}?api_key=${API_KEY}&language=en-US`
+          );
+          const data = await res.json();
+          if (data && data.id) {
+            setMovies([data]);
+          } else {
+            setError("Movie not found.");
+          }
+          return;
+        }
+
+        if (!quizAnswers) {
+          setError("No quiz data or movie provided.");
+          return;
+        }
+
+        const genreInput = [quizAnswers.eveningGenre, quizAnswers.endingGenre].join("|");
+        const params = new URLSearchParams({
+          api_key: API_KEY,
+          with_genres: genreInput,
+          "primary_release_date.gte": quizAnswers.filmReleaseDate.start,
+          "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
+          "with_runtime.gte": quizAnswers.runTime,
+          "with_runtime.lte": quizAnswers.runTime + 60,
+          "with_vote_count.gte": quizAnswers.voteCount,
+          include_adult: false,
+        });
+
+        const url = `https://api.themoviedb.org/3/discover/movie?${params.toString()}`;
         const response = await fetch(url);
         const data = await response.json();
 
@@ -39,7 +59,8 @@ const QuizResults = ({ quizAnswers }) => {
         } else {
           setError("No matching movies found. Try adjusting your answers.");
         }
-      } catch {
+      } catch (err) {
+        console.error(err);
         setError("Something went wrong. Please try again later.");
       } finally {
         setLoading(false);
@@ -47,7 +68,7 @@ const QuizResults = ({ quizAnswers }) => {
     };
 
     fetchMovies();
-  }, [quizAnswers]);
+  }, [quizAnswers, movieIdParam]);
 
   return (
     <>
@@ -88,6 +109,7 @@ const QuizResults = ({ quizAnswers }) => {
           </div>
         ))}
       </div>
+      <Footer />
     </>
   );
 };

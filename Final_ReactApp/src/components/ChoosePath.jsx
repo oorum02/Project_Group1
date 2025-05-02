@@ -22,10 +22,16 @@ function ChoosePath() {
           <h1 className="choosepath-heading">Choose a path</h1>
 
           <div className="choosepath-buttons">
-            <button onClick={() => handleClick("/QuizFlow")} className="choosepath-btn quiz-btn">
+            <button
+              onClick={() => handleClick("/quizflow")}
+              className="choosepath-btn quiz-btn"
+            >
               Mood quiz
             </button>
-            <button onClick={() => handleClick("/Randomise")} className="choosepath-btn">
+            <button
+              onClick={() => handleClick("/genre")}
+              className="choosepath-btn"
+            >
               Random Movie Generator
             </button>
           </div>

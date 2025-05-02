@@ -1,68 +1,68 @@
 import React, { useEffect, useState } from "react";
-import Spinny from "./Spinny"; // Imports the main wheel component
+import { useLocation, useNavigate } from "react-router-dom";
+import Spinny from "./Spinny";
+import "../../styles/RandomRoulette.css";
+import StartAgainNavbar from "../navbar/StartAgainNavbar";
+import Footer from "../Footer";
 
-const API_KEY = "577bc4c58ad0efe50eccb22d412606be"; // <-- API key for Gaby's account
+const API_KEY = "577bc4c58ad0efe50eccb22d412606be";
 
 function RandomRoulette() {
-  //Creates variables which will hold the data for the movies and selected movie.
+  const location = useLocation();
+  const navigate = useNavigate();
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
 
-  //Runs once when the compenent mounts.
+  const genreParam = new URLSearchParams(location.search).get("genre");
+
   useEffect(() => {
-    //Grabs popular movies from the TMDB APO
+    if (!genreParam) return;
+
     fetch(
-      `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`
+      `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&with_genres=${genreParam}&page=1`
     )
       .then((res) => res.json())
       .then((data) => {
-        //Saves the full list of movie objects
-        const movieTitles = data.results.map((movie) => movie.title);
-        setMovies(data.results); // full objects
+        const filtered = data.results.filter((movie) => movie.title && movie.poster_path);
+        setMovies(filtered.slice(0, 20)); // Limit to 20 top results
       })
-      .catch((err) => console.error(err));
-  }, []);
+      .catch((err) => console.error("Failed to fetch movies", err));
+  }, [genreParam]);
 
-  //Runs when the wheel stops spinning`and a movie is selected.
-  const handleFinished = (selectedTitle) => {
-    //Finds the movie object taht was selected.
-    const movie = movies.find((m) => m.title === selectedTitle);
-    setSelectedMovie(movie);
+  const handleFinished = (title) => {
+    const movie = movies.find((m) => m.title === title);
+    if (movie) {
+      setSelectedMovie(movie);
+      navigate(`/results?movieId=${movie.id}`);
+    }
   };
 
   return (
-    <div style={{ textAlign: "center", padding: 20 }}>
-      <h1>🎬 Spin for a movie!</h1>
-      {movies.length > 0 ? (
-        <Spinny
-          segments={movies.map((movie) => movie.title)}
-          onFinished={handleFinished}
-          primaryColor="#372549"
-          contrastColor="#eacdc2"
-          buttonText="SPIN"
-          size={400}
-        />
-      ) : (
-        <p>Loading movies...</p>
-      )}
-
-      {selectedMovie && (
-        <div style={{ marginTop: 40 }}>
-          {/*Movie Poster`*/}
-          <h2>{selectedMovie.title}</h2>
-          <img
-            src={`https://image.tmdb.org/t/p/w300${selectedMovie.poster_path}`}
-            alt={selectedMovie.title}
-            style={{ borderRadius: "10px" }}
-          />
-          <h3>What's this film about?</h3>
-          {/*Movie Overview*/}
-          <p style={{ maxWidth: 600, margin: "20px auto" }}>
-            {selectedMovie.overview}
-          </p>
-        </div>
-      )}
-    </div>
+    <>
+      <StartAgainNavbar />
+      <div className="roulette-page">
+        {!genreParam ? (
+          <p style={{ textAlign: "center", color: "red" }}>No genre selected.</p>
+        ) : (
+          <>
+            <h1 className="roulette-heading">Roulette Mode</h1>
+            {movies.length > 0 ? (
+              <Spinny
+                segments={movies.map((movie) => movie.title)}
+                onFinished={handleFinished}
+                primaryColor="#372549"
+                contrastColor="#eacdc2"
+                buttonText="SPIN"
+                size={500}
+              />
+            ) : (
+              <p className="loading-msg">Loading movies...</p>
+            )}
+          </>
+        )}
+      </div>
+      <Footer />
+    </>
   );
 }
 

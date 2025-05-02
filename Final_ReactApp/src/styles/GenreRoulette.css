@@ -1,0 +1,61 @@
+.genre-page {
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #b75d69, #372549);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .genre-wrapper {
+    background-color: #2d1b3a;
+    border: 2px solid #eacdc2;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .genre-title {
+    color: #eacdc2;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+  }
+  
+  .genre-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+  }
+  
+  .genre-btn {
+    background-color: #eacdc2;
+    color: #372549;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .genre-btn:hover {
+    transform: scale(1.08);
+    background-color: #f7e1dc;
+  }
+  
+  .genre-btn span {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
