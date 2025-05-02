@@ -37,6 +37,14 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
       ],
     },
     {
+      id: "voteCount",
+      question: "Do you prefer a popular movie or are you up for a cult classic?",
+      options: [
+        { label: "Popular movie", value: 100 }, //Vote count gte 10 added
+        { label: "Cult classic", value: 10 }, //Vote count gte 100 added
+      ],
+    },
+    {
       id: "filmReleaseDate",
       question: "Which style speaks to you?", //this could then be images relating to decades
       options: [

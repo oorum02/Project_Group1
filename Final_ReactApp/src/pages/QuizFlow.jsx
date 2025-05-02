@@ -12,7 +12,7 @@ const QuizFlow = () => {
 
   useEffect (() => {
     //Checking if all qs are answered, hardcoded as 5 so not ideal but hard to get length in here
-    if (Object.keys(quizAnswers).length === 4){
+    if (Object.keys(quizAnswers).length === 5){
       setQuizComplete(true);
     }
   }, [quizAnswers]); //Quiz answers as dependency

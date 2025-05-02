@@ -8,3 +8,7 @@ footer {
     flex-direction: column;
     bottom: 0;
   }
+
+  .tmdb-logo {
+    max-width: 10%;
+  }
