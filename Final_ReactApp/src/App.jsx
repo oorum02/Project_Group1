@@ -23,6 +23,8 @@ function App() {
         <Route path="/genre" element={<GenreRoulette />} />
         <Route path="/randomise" element={<RandomRoulette />} />
         <Route path="/results" element={<QuizResults />} />
+
+        {/* Catch-all route for unmatched URLs */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
