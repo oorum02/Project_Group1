@@ -1,52 +1,37 @@
 import React from "react";
 
 const About = () => {
-   return (
-      <>
-         <div id="about-section" className="about-container">
-            <h1 className="about-title">About Moodie</h1>
-            <div className="about-content-container">
-               <div className="about-content">
-                  <p className="about-text">
-                     Lorem ipsum dolor sit amet. Aut veritatis dolore est
-                     mollitia velit et atque quia aut eligendi dicta. Eum
-                     galisum voluptatem est ratione doloremque est expedita
-                     tenetur At quidem laboriosam nam modi assumenda sit beatae
-                     odit. Vel temporibus enim in adipisci eius qui doloremque
-                     earum non blanditiis delectus est pariatur quos ab omnis
-                     voluptatem. Qui necessitatibus saepe rem soluta optio et
-                     dolorum nihil quo mollitia quod. Eos dicta praesentium et
-                     sequi recusandae est earum nesciunt et accusamus quas et
-                     modi labore. Non harum labore aut nihil eaque in laudantium
-                     aliquam. 33 atque dolor ut consequatur inventore qui
-                     dignissimos quam est nostrum enim non voluptates
-                     perspiciatis ut iusto voluptatem.
-                  </p>{" "}
-                  <br />
-                  <p className="about-text">
-                     Lorem ipsum dolor sit amet. Aut veritatis dolore est
-                     mollitia velit et atque quia aut eligendi dicta. Eum
-                     galisum voluptatem est ratione doloremque est expedita
-                     tenetur At quidem laboriosam nam modi assumenda sit beatae
-                     odit. Vel temporibus enim in adipisci eius qui doloremque
-                     earum non blanditiis delectus est pariatur quos ab omnis
-                     voluptatem. Qui necessitatibus saepe rem soluta optio et
-                     dolorum nihil quo mollitia quod. Eos dicta praesentium et
-                     sequi recusandae est earum nesciunt et accusamus quas et
-                     modi labore. Non harum labore aut nihil eaque in laudantium
-                     aliquam. 33 atque dolor ut consequatur inventore qui
-                     dignissimos quam est nostrum enim non voluptates
-                     perspiciatis ut iusto voluptatem.
-                  </p>{" "}
-                  <br />
-                  <p className="about-text">
-                     "This product uses the TMDB API but is not endorsed or certified by TMDB."
-                  </p>
-               </div>
-            </div>
-         </div>
-      </>
-   );
+  return (
+    <>
+      <div id="about-section" className="about-container">
+        <h1 className="about-title">About Moodie</h1>
+        <div className="about-content-container">
+          <div className="about-content">
+            <p className="about-text">
+              Moodie is a movie recommendation platform designed to help you
+              discover a film that fits your current state of mind. It's the
+              antidote to endless scrolling on streaming platforms and the
+              decision fatigue that comes along with it. Let Moodie help you
+              decide what to watch tonight!
+            </p>{" "}
+            <br />
+            <p className="about-text">
+              If you want some quick suggestions, try the Random Movie
+              Generator. Pick a genre and spin the wheel for a random film
+              recommendation. If you'd like a more tailored suggestion, take our
+              quiz, and based on your answers, Moodie will recommend
+              a film for you to watch.
+            </p>{" "}
+            <br />
+            <p className="about-text">
+              "This product uses the TMDB API (The Movie Database API) but is
+              not endorsed or certified by TMDB."
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default About;
