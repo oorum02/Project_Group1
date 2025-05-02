@@ -1,0 +1,24 @@
+.roulette-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #6a3d63, #1c1234); 
+  }
+  
+  .roulette-main {
+    flex-grow: 1;
+    text-align: center;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .roulette-title {
+    color: var(--soft-beige);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+  }

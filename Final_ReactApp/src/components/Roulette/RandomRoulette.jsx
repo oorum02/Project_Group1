@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Spinny from './Spinny';
+import '../../styles/RandomRoulette.css';
 import Navbar from '../navbar/StartMoodieNavbar';
 import Footer from '../Footer';
 
@@ -11,16 +12,22 @@ function RandomRoulette() {
   const navigate = useNavigate();
 
   const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!genreId) return;
+    setLoading(true);
 
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=${genreId}`)
       .then((res) => res.json())
       .then((data) => {
         setMovies(data.results);
+        setLoading(false);
       })
-      .catch((err) => console.error('Failed to fetch movies', err));
+      .catch((err) => {
+        console.error('Failed to fetch movies', err);
+        setLoading(false);
+      });
   }, [genreId]);
 
   const handleFinished = (title) => {
@@ -31,32 +38,23 @@ function RandomRoulette() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div className="roulette-page">
       <Navbar />
 
-      <main
-        style={{
-          flexGrow: 1,
-          textAlign: 'center',
-          padding: '2rem 1rem',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-        }}
-      >
-        <h1 style={{ fontSize: '2rem', marginBottom: '2rem' }}> Spin for a Movie</h1>
+      <main className="roulette-main">
+        <h1 className="roulette-title">Roulette Mode</h1>
 
-        {movies.length > 0 ? (
+        {loading ? (
+          <p className="roulette-loading">Loading movies...</p>
+        ) : (
           <Spinny
             segments={movies.map((m) => m.title)}
             onFinished={handleFinished}
             primaryColor="#372549"
             contrastColor="#eacdc2"
             buttonText="SPIN"
-            size={400}
+            size={420}
           />
-        ) : (
-          <p>Loading movies...</p>
         )}
       </main>
 
