@@ -12,21 +12,31 @@ const QuizResults = ({ quizAnswers }) => {
 
     useEffect(() => {
 
+        console.log(quizAnswers)
+
+        //combining multiple genre filters
+        const genre1 = quizAnswers.eveningGenre;
+        const genre2 = quizAnswers.endingGenre;
+        const genre3 = quizAnswers.companionGenre
+        const genreInput = [genre1, genre2, genre3].join("|")
+
         // Set up parameters that match question filters
         const params = new URLSearchParams({
             api_key: API_KEY,
-            with_genres: quizAnswers.genre, //Genres listed in number codes on TMDB
-            "with_runtime.gte": quizAnswers.runTime, //Runtime upper and lower limits
-            "with_runtime.lte": quizAnswers.runTime + 30,
+            with_genres: genreInput, //Genres listed in number codes on TMDB
             "primary_release_date.gte": quizAnswers.filmReleaseDate.start, //Release date range
             "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
-            "with_origin_country": quizAnswers.countryOfOrigin,
-            "vote_average.gte": quizAnswers.ratingsRange //Rating range (0-10 on TMDB)
+            "with_runtime.gte": quizAnswers.runTime, //Runtime upper and lower limits
+            "with_runtime.lte": quizAnswers.runTime + 60,
+            // "vote_average.gte": quizAnswers.ratingsRange //Rating range (0-10 on TMDB)
         });
 
-        // console.log(params)
+        console.log(params)
+
 
         const url = `https://api.themoviedb.org/3/discover/movie?${params.toString()}`;
+
+         console.log(url)
 
         // API call with URL that updates based on input params
         const fetchMovies = async () => {
@@ -47,6 +57,7 @@ const QuizResults = ({ quizAnswers }) => {
                 setLoading(false);
               }
             };        
+            console.log(movies)
 
         fetchMovies();
     }, [quizAnswers]); //Quiz Answers as dependency 

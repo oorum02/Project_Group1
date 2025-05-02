@@ -15,39 +15,47 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
   // Array containing quiz questions and different options for the corresponding buttons
   // We can potential abstract this out into a JSON file to make it easier to manage but for an MVP it does the work!
   const quizQuestions = [
-    // {
-    //   id: "ageRange",
-    //   question: "Who will be watching the movie?",
-    //   options: ["12 and under", "Between 12 and 15", "18+", "Mixture of Ages"],
-    // },
     {
       //Set label value pairs for button so value is compatible with api - e.g. genre searches are done by genre id number
-      id: "genre",
-      question:
-        "If your vibe right now had a soundtrack, the question is, would it be epic, heartwarming, mysterious, heart jolting or just full of laughs?",
+      id: "eveningGenre",
+      question: "Pick your ideal evening vibe:",
       options: [
-        { label: "Fantasy", value: 14 },
-        { label: "Comedy", value: 35 },
-        { label: "Horror", value: 27 },
-        { label: "Romantic", value: 10749 },
-        { label: "Thriller", value: 53 },
+        { label: "Loud music and dance-offs", value:  10402 }, // Filter added music
+        { label: "Blanket, burrito and snacks", value: 10749 },// Romance filter
+        { label: "Creeping myself out for no reason", value: 27 }, //Horror added
+        { label: "Thinking about the universe and stuff", value: 878 }, // Scifi added
+      ],
+    },
+    {
+      id: "endingGenre",
+      question: "What kind of ending do you crave?",
+      options: [
+        { label: "Happy, tied with a bow", value: 35 }, //comedy 
+        { label: "A twist that makes me scream", value: 53 }, //Filters thriller  
+        { label: "One that leaves me thinking for days", value:  9648 }, //drama or mystery added 
+        { label: "Explosions and slow-mo hero walks", value: 28 }, //action filter added
+      ],
+    },
+    {
+      id: "companionGenre",
+      question: "Who are you watching with?",
+      options: [
+        { label: "Solo movie night", value: 18 }, //adds no genre
+        { label: "With family", value: 10751 }, //adds the family friendly filter
+        { label: "With friends", value: 35 }, //adds comedy filter
       ],
     },
     {
       id: "filmReleaseDate",
-      question: "What decade of film are you interested in?",
+      question: "Which style speaks to you?", //this could then be images relating to decades
       options: [
         {
-          label: "1920-1950s",
-          value: { start: "1920-01-01", end: "1949-12-01" },
+          label: "1960-1980s",
+          value: { start: "1960-01-01", end: "1979-12-01" },
         },
         {
-          label: "1950s-1980s",
-          value: { start: "1950-01-01", end: "1979-12-01" },
-        },
-        {
-          label: "1980s-2000",
-          value: { start: "1980-01-01", end: "1999-12-01" },
+          label: "1980s-2000s",
+          value: { start: "1980-01-01", end: "1990-12-01" },
         },
         {
           label: "2000-2025",
@@ -56,44 +64,15 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
       ],
     },
     {
-      id: "countryOfOrigin",
-      question: "What country of origin are you interested in?",
-      options: [
-        { label: "USA", value: "US" },
-        { label: "UK", value: "GB" },
-        { label: "France", value: "FR" },
-        { label: "Germany", value: "DE" },
-        { label: "Japan", value: "JP" },
-      ],
-    },
-    {
-      id: "ratingsRange",
-      question: "How well rated should this film be?",
-      options: [
-        { label: "Terrible", value: 0 },
-        { label: "Okay", value: 5 },
-        { label: "Good", value: 7 },
-        { label: "Great", value: 8.5 }, //this question may need tweaking, I'm currently using the "rating" 0-10 system but there is a popularity filter
-        //Popularity filter could be better as far as I can tell currently you can only "sort by" with it so doesn't matter much as
-        //I'm selecting a math.random one to display, but maybe this is tweaked to random from first 20 results? what if there aren't 20?
-        //
-      ],
-    },
-    {
       id: "runTime",
-      question: "How long have you got?",
+      question: "Finally, how long have you got?",
       options: [
-        { label: "I'm in a rush", value: 45 },
-        { label: "I've got a bit of time", value: 60 },
-        { label: "I've got a while", value: 90 },
-        { label: "I've got all the time in the world", value: 120 },
+        { label: "I'm in a rush", value: 60 },
+        { label: "I've got a bit of time", value: 90 },
+        { label: "I've got a while", value: 120 },
+        { label: "I've got all the time in the world", value: 150 },
       ],
     },
-    // {
-    //   id: "mostCommonAdjective",
-    //   question: "What is the most common adjective in reviews?",
-    //   options: ["Great", "Good", "Bad", "Terrible"],
-    // },
   ];
 
   const currentQuestion = quizQuestions[currentIndex];
@@ -108,8 +87,6 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
     };
 
     setQuizAnswers(updatedAnswers);
-    console.log(quizAnswers);
-
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
