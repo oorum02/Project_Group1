@@ -4,11 +4,11 @@ import './Spinny.css';
 const Spinny = ({
   segments,
   onFinished,
-  size = 400,
-  primaryColor = '#b75d69',     // Mauve rose
-  contrastColor = '#403156',    // Deep plum
-  tertiaryColor = '#774c60',    // Dusty purple
-  buttonText = 'SPIN'
+  size = 500,
+  primaryColor = '#b75d69',
+  contrastColor = '#403156',
+  tertiaryColor = '#774c60',
+  buttonText = 'SPIN',
 }) => {
   const canvasRef = useRef(null);
   const [startAngle, setStartAngle] = useState(0);
@@ -28,49 +28,50 @@ const Spinny = ({
 
     ctx.clearRect(0, 0, size, size);
 
-    const colors = [primaryColor, contrastColor, tertiaryColor];
-
     for (let i = 0; i < totalSegments; i++) {
       const angle = startAngle + i * arc;
+      const bgColor = i % 3 === 0 ? primaryColor : i % 3 === 1 ? contrastColor : tertiaryColor;
+      const textColor = isDarkColor(bgColor) ? '#fff' : '#000';
+
       ctx.beginPath();
-      ctx.fillStyle = colors[i % colors.length];
+      ctx.fillStyle = bgColor;
       ctx.moveTo(radius, radius);
       ctx.arc(radius, radius, radius, angle, angle + arc, false);
       ctx.lineTo(radius, radius);
       ctx.fill();
 
-      // Text label
       ctx.save();
       ctx.translate(radius, radius);
       ctx.rotate(angle + arc / 2);
-      ctx.fillStyle = '#ffffff';
-      ctx.font = 'bold 14px "Avenir", sans-serif';
+
+      const fontSize = Math.max(10, Math.min(16, size / (segments.length * 2.5)));
+      ctx.fillStyle = textColor;
+      ctx.font = `${fontSize}px "Avenir", sans-serif`;
       ctx.textAlign = 'right';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(segments[i]?.slice(0, 22), radius - 10, 0);
+      ctx.fillText(segments[i]?.slice(0, 20), radius - 10, 0);
+
       ctx.restore();
     }
 
-    // Draw center spin button
+    // Center button
     ctx.beginPath();
     ctx.arc(radius, radius, 40, 0, 2 * Math.PI);
     ctx.fillStyle = contrastColor;
     ctx.fill();
     ctx.stroke();
-    ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 16px "Avenir", sans-serif';
+    ctx.fillStyle = primaryColor;
+    ctx.font = `bold 16px "Avenir", sans-serif`;
     ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(buttonText, radius, radius);
+    ctx.fillText(buttonText, radius, radius + 5);
   };
 
   const spin = () => {
     if (spinning) return;
     setSpinning(true);
 
-    let spinAngleStart = Math.random() * 10 + 10;
+    const spinAngleStart = Math.random() * 10 + 10;
     let spinTime = 0;
-    let spinTimeTotal = Math.random() * 2000 + 4000;
+    const spinTimeTotal = Math.random() * 2000 + 4000;
 
     const rotate = () => {
       spinTime += 30;
@@ -97,6 +98,15 @@ const Spinny = ({
     const ts = (t /= d) * t;
     const tc = ts * t;
     return b + c * (tc + -3 * ts + 3 * t);
+  };
+
+  const isDarkColor = (hex) => {
+    const color = hex.replace('#', '');
+    const r = parseInt(color.substring(0, 2), 16);
+    const g = parseInt(color.substring(2, 4), 16);
+    const b = parseInt(color.substring(4, 6), 16);
+    const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+    return brightness < 128;
   };
 
   return (

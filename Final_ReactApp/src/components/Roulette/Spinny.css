@@ -1,57 +1,66 @@
 .spinny-container {
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #2c193f, #1d1128);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--soft-beige);
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Avenir', sans-serif;
-  }
-  
-  .spinny-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-    color: var(--soft-beige);
-  }
-  
-  .wheel-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .wheel-canvas {
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
-    transition: transform 0.3s ease-in-out;
-    max-width: 100%;
-  }
-  
-  .wheel-canvas:hover {
-    transform: scale(1.03);
-  }
-  
-  .spinny-button {
-    margin-top: 2rem;
-    background: #b75d69;
-    border: 2px solid var(--soft-beige);
-    color: var(--dark-purple-black);
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 1rem 2rem;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
-  }
-  
-  .spinny-button:hover {
-    background: #403156;
-    color: var(--soft-beige);
-  }
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #2c193f, #1d1128);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--soft-beige);
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spinny-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--soft-beige);
+  margin-bottom: 2rem;
+}
+
+.wheel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 85vw;
+}
+
+.wheel-canvas {
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+  width: 65vmin;
+  height: 65vmin;
+  max-width: 100%;
+}
+
+.wheel-canvas:hover {
+  transform: scale(1.04);
+}
+
+.spinny-button {
+  margin-top: 2rem;
+  background: #b75d69;
+  border: 2px solid var(--soft-beige);
+  color: var(--dark-purple-black);
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.spinny-button:hover {
+  background: #403156;
+  color: var(--soft-beige);
+}
+
   
