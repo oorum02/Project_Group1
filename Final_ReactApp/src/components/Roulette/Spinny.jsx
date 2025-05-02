@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import './Spinny.css';
+import '../../styles/Spinny.css';
 
 const Spinny = ({
   segments,
