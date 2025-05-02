@@ -17,9 +17,9 @@ const QuizResults = ({ quizAnswers }) => {
         //combining multiple genre filters
         const genre1 = quizAnswers.eveningGenre;
         const genre2 = quizAnswers.endingGenre;
-        const genre3 = quizAnswers.companionGenre
-        const genreInput = [genre1, genre2, genre3].join("|")
+        const genreInput = [genre1, genre2].join("|")
 
+        console.log(genreInput)
         // Set up parameters that match question filters
         const params = new URLSearchParams({
             api_key: API_KEY,
@@ -28,7 +28,7 @@ const QuizResults = ({ quizAnswers }) => {
             "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
             "with_runtime.gte": quizAnswers.runTime, //Runtime upper and lower limits
             "with_runtime.lte": quizAnswers.runTime + 60,
-            // "vote_average.gte": quizAnswers.ratingsRange //Rating range (0-10 on TMDB)
+            include_adult: false //Filter to exclude adult content - added standard so results are suitable for groups/age ranges
         });
 
         console.log(params)

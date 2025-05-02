@@ -32,17 +32,8 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
       options: [
         { label: "Happy, tied with a bow", value: 35 }, //comedy 
         { label: "A twist that makes me scream", value: 53 }, //Filters thriller  
-        { label: "One that leaves me thinking for days", value:  9648 }, //drama or mystery added 
+        { label: "One that leaves me thinking for days", value:  9648 }, //Mystery added 
         { label: "Explosions and slow-mo hero walks", value: 28 }, //action filter added
-      ],
-    },
-    {
-      id: "companionGenre",
-      question: "Who are you watching with?",
-      options: [
-        { label: "Solo movie night", value: 18 }, //adds no genre
-        { label: "With family", value: 10751 }, //adds the family friendly filter
-        { label: "With friends", value: 35 }, //adds comedy filter
       ],
     },
     {
@@ -51,15 +42,19 @@ const QuizQuestions = ({ quizAnswers, setQuizAnswers }) => {
       options: [
         {
           label: "1960-1980s",
-          value: { start: "1960-01-01", end: "1979-12-01" },
+          value: { start: "1960-01-01", end: "1979-12-31" },
         },
         {
-          label: "1980s-2000s",
-          value: { start: "1980-01-01", end: "1990-12-01" },
+        label: "1980s-2000s",
+        value: { start: "1980-01-01", end: "1999-12-31" },
         },
         {
-          label: "2000-2025",
-          value: { start: "2000-01-01", end: "2024-12-01" },
+          label: "2000s-2015s",
+          value: { start: "2000-01-01", end: "2014-12-31" },
+        },
+        {
+          label: "2015-2025",
+          value: { start: "2015-01-01", end: "2024-12-31" },
         },
       ],
     },
