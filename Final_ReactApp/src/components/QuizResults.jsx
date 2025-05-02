@@ -1,77 +1,64 @@
 import React, { useState, useEffect } from "react";
-import '../styles/QuizResults.css'
+import "../styles/QuizResults.css";
+import StartAgainNavbar from "../components/navbar/StartAgainNavbar";
+import Footer from "../components/Footer";
+import popcornLogo from "../assets/logos/moodie-popcorn.png";
 
-const API_KEY = "39b6478c947539cc4929cc5746e3fd48"
-
+const API_KEY = "39b6478c947539cc4929cc5746e3fd48";
 
 const QuizResults = ({ quizAnswers }) => {
-    const [movies, setMovies] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+  const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
+  useEffect(() => {
+    const genreInput = [quizAnswers.eveningGenre, quizAnswers.endingGenre].join("|");
 
-    useEffect(() => {
+    const params = new URLSearchParams({
+      api_key: API_KEY,
+      with_genres: genreInput,
+      "primary_release_date.gte": quizAnswers.filmReleaseDate.start,
+      "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
+      "with_runtime.gte": quizAnswers.runTime,
+      "with_runtime.lte": quizAnswers.runTime + 60,
+      "with_vote_count.gte": quizAnswers.voteCount,
+      include_adult: false,
+    });
 
-        console.log(quizAnswers)
+    const url = `https://api.themoviedb.org/3/discover/movie?${params.toString()}`;
 
-        //combining multiple genre filters
-        const genre1 = quizAnswers.eveningGenre;
-        const genre2 = quizAnswers.endingGenre;
-        const genreInput = [genre1, genre2].join("|")
+    const fetchMovies = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch(url);
+        const data = await response.json();
 
-        console.log(genreInput)
-        // Set up parameters that match question filters
-        const params = new URLSearchParams({
-            api_key: API_KEY,
-            with_genres: genreInput, //Genres listed in number codes on TMDB
-            "primary_release_date.gte": quizAnswers.filmReleaseDate.start, //Release date range
-            "primary_release_date.lte": quizAnswers.filmReleaseDate.end,
-            "with_runtime.gte": quizAnswers.runTime, //Runtime upper and lower limits
-            "with_runtime.lte": quizAnswers.runTime + 60,
-            "with_vote_count.gte": quizAnswers.voteCount,
-            include_adult: false, //Filter to exclude adult content - added standard so results are suitable for groups/age ranges
-        });
+        if (data.results?.length > 0) {
+          const shuffled = [...data.results].sort(() => 0.5 - Math.random());
+          setMovies(shuffled.slice(0, 1));
+        } else {
+          setError("No matching movies found. Try adjusting your answers.");
+        }
+      } catch {
+        setError("Something went wrong. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
 
-        console.log(params)
+    fetchMovies();
+  }, [quizAnswers]);
 
+  return (
+    <>
+      <StartAgainNavbar />
+      <div className="quiz-results-container">
+        <img src={popcornLogo} alt="Popcorn" className="popcorn-bg" />
+        <h1 className="quiz-results-heading">Moodie Recommends</h1>
 
-        const url = `https://api.themoviedb.org/3/discover/movie?${params.toString()}`;
+        {loading && <p>Loading...</p>}
+        {error && <p className="error-message">{error}</p>}
 
-         console.log(url)
-
-        // API call with URL that updates based on input params
-        const fetchMovies = async () => {
-            try {
-                setLoading(true);
-                const response = await fetch(url);
-                const data = await response.json();
-        
-                if (data.results?.length > 0) {
-                  const shuffled = [...data.results].sort(() => 0.5 - Math.random());
-                  setMovies(shuffled.slice(0, 1)); // Get 1 random movie
-                } else {
-                  setError("No matching movies found. Try adjusting your answers.");
-                }
-              } catch (err) {
-                setError("Something went wrong. Please try again later.");
-              } finally {
-                setLoading(false);
-              }
-            };        
-            console.log(movies)
-
-        fetchMovies();
-    }, [quizAnswers]); //Quiz Answers as dependency 
-
-    return (
-        <>
-           <div className="quiz-results-container fade-in">
-      <h1 className="quiz-results-heading">🎬 Your Movie Matches</h1>
-
-      {loading && <p>Loading recommendations...</p>}
-      {error && <p className="error-message">{error}</p>}
-
-      <div className="movie-grid">
         {movies.map((movie) => (
           <div className="movie-card" key={movie.id}>
             <img
@@ -79,17 +66,30 @@ const QuizResults = ({ quizAnswers }) => {
               src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
               alt={movie.title}
             />
-            <div className="movie-stats">
-              <h2>{movie.title}</h2>
-              <p><strong>Overview:</strong> {movie.overview}</p>
-              <p><strong>Release Date:</strong> {movie.release_date}</p>
-              <p><strong>Rating:</strong> {movie.vote_average} / 10</p>
+
+            <div className="movie-details">
+              <div className="detail-row">
+                <span className="detail-label">Title:</span>
+                <div className="detail-box">{movie.title}</div>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Genre:</span>
+                <div className="detail-box">N/A</div>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Mood Match:</span>
+                <div className="detail-box">Humour, Action and Heartwarming</div>
+              </div>
+              <div className="detail-row synopsis-row">
+                <span className="detail-label">Synopsis:</span>
+                <div className="detail-box">{movie.overview}</div>
+              </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
     </>
   );
 };
+
 export default QuizResults;

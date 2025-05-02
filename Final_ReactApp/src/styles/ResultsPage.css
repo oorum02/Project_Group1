@@ -1,56 +1,103 @@
-.results-page-container {
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--soft-beige);
-    min-height: 100vh;
-    color: var(--dark-purple-black);
-  }
-  
-  h2 {
-    color: var(--deep-plum);
-  }
-  
-  .results-actions {
-    margin-top: 2rem;
-  }
-  
-  .btn {
-    padding: 0.7rem 1.5rem;
-    margin: 0.5rem;
-    background-color: var(--vintage-rose);
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: var(--muted-mauve);
-  }
-  
-  .btn-secondary {
-    background-color: var(--deep-plum);
-  }
-  
-  .btn-secondary:hover {
-    background-color: var(--muted-mauve);
-  }
-  
-  .fade-in {
-    animation: fadeIn 0.6s ease-in;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+/* Base container with gradient and vertical layout */
+.quiz-results-container {
+  position: relative;
+  z-index: 2;
+  padding: 3rem 2rem;
+  background: linear-gradient(var(--muted-mauve), var(--vintage-rose));
+  color: var(--soft-beige);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Title spacing */
+.quiz-results-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--soft-beige);
+  margin-bottom: 3rem;
+}
+
+/* Layout for poster + details */
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+
+  /* Remove any unwanted box appearance */
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Poster styling */
+.movie-image {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Right side: content */
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  max-width: 600px;
+  flex: 1;
+  justify-content: center;
+}
+
+/* Label + content row */
+.detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Label styling */
+.detail-label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  min-width: 120px;
+  text-align: left;
+  color: var(--soft-beige);
+}
+
+/* Box for values */
+.detail-box {
+  background-color: var(--deep-plum);
+  color: var(--soft-beige);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--soft-beige);
+  flex: 1;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Special styling for multiline text like Synopsis */
+.synopsis-row .detail-label {
+  padding-top: 0.4rem;
+}
+
+/* Popcorn logo - behind content, above footer */
+.popcorn-bg {
+  position: absolute;
+  bottom: 5rem;
+  left: 0;
+  width: 33vw;
+  max-width: 300px;
+  opacity: 0.2;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+}
   
